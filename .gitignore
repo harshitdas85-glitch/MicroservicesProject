@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories (Never commit node_modules!)
+node_modules/
+jspm_packages/
+web_modules/
+
+# Optional npm cache directory
+.npm
+
+# Output directories and build artifacts
+dist/
+build/
+out/
+
+# Environment variables and local secrets (Contains API keys, database passwords)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keep the example file tracked to help your team configuration
+!.env.example
+
+# TypeScript cache and build info
+*.tsbuildinfo
+
+# Optional IDEs and text editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+
+# Operating system files
+.DS_Store
+Thumbs.db
